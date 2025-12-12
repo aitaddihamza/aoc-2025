@@ -36,14 +36,5 @@ def partTwo():
     return result
 
 
-# print(partOne())
+print(partOne())
 # print(partTwo())
-x = '818181911112111'
-fs = find_max_index(x, 0, len(x)-12)
-print(f"nums[{fs}] = {x[fs]}")
-fs = find_max_index(x, fs+1, fs+1+len(x)-11)
-print(f"nums[{fs}] = {x[fs]}")
-fs = find_max_index(x, fs+1, fs+1+len(x)-10)
-print(f"nums[{fs}] = {x[fs]}")
-fs = find_max_index(x, fs+1, fs+1+len(x)-9)
-print(f"nums[{fs}] = {x[fs]}")

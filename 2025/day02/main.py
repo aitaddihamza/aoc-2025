@@ -1,5 +1,5 @@
 def partOne():
-    with open("exp.txt", "r") as file:
+    with open("input.txt", "r") as file:
         content = file.read().strip() # supprimer \n
         # print(content.split(",")) # retourne un array of ranges
         ranges = content.split(",")
@@ -32,4 +32,4 @@ def partTwo():
 
 
 print(partOne())
-print(partTwo())
+# print(partTwo())
